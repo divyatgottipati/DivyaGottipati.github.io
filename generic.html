@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<!--
+    Massively by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Generic Page - Massively by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        .certificate {
+            position: relative;
+            text-align: center;
+            margin-bottom: 2em;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .certificate img {
+            display: block;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .certificate-popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+            display: none;
+            width: 12in; /* Adjust width to 12 inches */
+            height: 6in; /* Adjust height to 6 inches */
+            max-width: 100%; /* Ensure it fits within viewport */
+            max-height: 100%; /* Ensure it fits within viewport */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            background-color: white; /* Ensure white background */
+            padding: 20px; /* Add padding for better display */
+        }
+
+        .certificate-popup img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; /* Maintain aspect ratio */
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="logo">DIVYA GOTTIPATI</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="links">
+            <li><a href="index.html">MY PROJECTS</a></li>
+            <li class="active"><a href="generic.html">MY CERTIFICATIONS</a></li>
+            <li><a href="elements.html">MY SKILLS</a></li>
+        </ul>
+        <ul class="icons">
+            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Post -->
+        <section class="post">
+            <header class="major">
+                <h1>CERTIFICATIONS</h1>
+                <p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor amet nullam sed etiam veroeros.</p>
+            </header>
+            <div class="row">
+                <div class="col-6 col-12-medium">
+                    <div class="certificate" data-image="images/portland-state-university_1162.png">
+                        <img src="images/portland-state-university_1162.png" alt="Certificate 1">
+                    </div>
+                </div>
+                <div class="col-6 col-12-medium">
+                    <div class="certificate" data-image="images/certificate.jpeg">
+                        <img src="images/certificate.jpeg" alt="Certificate 2">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-12-medium">
+                    <div class="certificate" data-image="images/certificate3.jpg">
+                        <img src="images/certificate3.jpg" alt="Certificate 3">
+                    </div>
+                </div>
+                <div class="col-6 col-12-medium">
+                    <div class="certificate" data-image="images/certificate4.jpg">
+                        <img src="images/certificate4.jpg" alt="Certificate 4">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Certificate Popup -->
+    <div class="certificate-popup" id="certificatePopup">
+        <img src="" alt="Certificate Popup">
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <section>
+            <form method="post" action="#">
+                <div class="fields">
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" />
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" />
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="3"></textarea>
+                    </div>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Send Message" /></li>
+                </ul>
+            </form>
+        </section>
+        <section class="split contact">
+            <section class="alt">
+                <h3>Address</h3>
+                <p>1234 Somewhere Road #87257<br />
+                    Nashville, TN 00000-0000</p>
+            </section>
+            <section>
+                <h3>Phone</h3>
+                <p><a href="#">(000) 000-0000</a></p>
+            </section>
+            <section>
+                <h3>Email</h3>
+                <p><a href="#">info@untitled.tld</a></p>
+            </section>
+            <section>
+                <h3>Social</h3>
+                <ul class="icons alt">
+                    <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                </ul>
+            </section>
+        </section>
+    </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        var isHovered = false;
+        var timeout;
+        
+        $('.certificate').hover(function() {
+            var imageSrc = $(this).data('image');
+            $('#certificatePopup img').attr('src', imageSrc);
+            clearTimeout(timeout); // Clear any existing timeout
+            isHovered = true;
+            $('#certificatePopup').fadeIn(); // Fade in the popup
+        }, function() {
+            isHovered = false;
+            timeout = setTimeout(function() {
+                if (!isHovered) {
+                    $('#certificatePopup').fadeOut();
+                }
+            }, 1000); // Adjust delay if needed
+        });
+    });
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
